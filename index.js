@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 const cors = require('cors')
 const { router }  = require("./src/routes")
-const port = 3000 || process.env.PORT;
+const port = 8080 || process.env.PORT;
 
 app.use(express.json())
 app.use(cors())
