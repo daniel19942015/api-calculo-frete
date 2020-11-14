@@ -3,7 +3,7 @@ const app = express()
 const cors = require('cors')
 const { router }  = require("./src/routes")
 const port = process.env.PORT || 8080;
-const { wokeDyno } = require('woke-dyno')
+const wokeDyno = require('woke-dyno')
 const uri = 'https://api-frete-calculo.herokuapp.com/'
 
 app.use(express.json())
