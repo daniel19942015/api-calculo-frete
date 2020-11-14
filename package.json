@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node index",
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +16,7 @@
     "frete": "^0.3.1",
     "node-correios": "^3.0.2",
     "request": "^2.88.2",
+    "woke-dyno": "0.0.4",
     "xml2js": "^0.4.23"
   }
 }

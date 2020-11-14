@@ -9,6 +9,10 @@ app.use(cors())
 app.use(router)
 
 app.listen(port, () =>{
+    wokeDyno({
+        url: uri,
+        interval: 3600000
+    }).start()
     console.log("Connectado on port ->", port);
 })
 
